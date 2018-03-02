@@ -2,8 +2,11 @@
 #
 # ülesanne
 #
-echo -n "Kevin Mäoma" # väljastab reavahetusega nime
-echo -n "IS117" # väljastab õppegrupi +reavahetus
-echo "Aine tundub väga huvitav." # väljastab muljed antud ainest
+echo -n "Kevin Mäoma
+" # väljastab reavahetusega nime
+echo -n "IS117
+" # väljastab õppegrupi +reavahetus
+echo "Aine tundub väga huvitav.
+" # väljastab muljed antud ainest
 #
 # skripti lõpp
