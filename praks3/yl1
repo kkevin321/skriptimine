@@ -1,0 +1,7 @@
+#!/bin/bash
+
+date +"Today is %A, %B %m, %Y "  # see command postitab täiesõnaliselt päeva, kuu ja ning pikalt aasta
+date +"Time is %R"	    # see command postitab praeguse aja
+# date "Time is  %H:%M"
+
+cal  # see command postitab kalendri
