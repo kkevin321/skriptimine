@@ -1,0 +1,16 @@
+#!/bin/bash
+# arvu paarisuse arvutamise skript
+#
+# kysime kasutaja k2est arvu
+echo -n "Sisesta suvaline t2isarv: "
+read arv
+# Kontrollime, kas antud arv on paaris
+# arvutame j22k 2-ga jagamisel
+j22k=$(( $arv % 2 ))
+# Kui j22k on 0 - tegi on paarisarvuga
+if [ $j22k -eq 0 ]; then
+ echo "Antud arv on paaris"
+else
+ echo "Antud arv on paaritu"
+fi # if lause l6pp
+# skripti l6pp
